@@ -29,17 +29,31 @@ button{ cursor: pointer;}
 
 /*logo*/
 .logo {
-    color: var(--title-text-color);
-
     font-family: Raleway;
     letter-spacing: 0.03em;
     font-size: 18px;
     line-height: 1.33;
     text-decoration: none;
+    color: var(--title-text-color);
 }
 
 .accent-logo {
-    color: var(--accent-color);
     font-family: Raleway;
+    color: var(--accent-color);
 }
 
+.menu-link{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--accent-color);
+}
+
+ 

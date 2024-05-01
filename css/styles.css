@@ -20,13 +20,13 @@ button{ cursor: pointer;}
     font-size: 18px;
     line-height: 1.17;
     text-decoration: none;
-    color: #2e2f42;
+    color: #4D5AE5;
     text-transform: uppercase;
 }
 
 .accent-logo {
     font-family: Raleway, sans-serif;
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .menu-link{
@@ -92,7 +92,7 @@ button{ cursor: pointer;}
  /*section*/
  
  .section-title {
-     color: #2E2F42;
+     color: #2e2f42;
 
      font-weight: 700;
      font-size: 36px;
@@ -143,7 +143,11 @@ button{ cursor: pointer;}
 .section-title-portfolio{
     text-align: center;
     text-transform: capitalize;
-    
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
 }
 
  .portfolio-list .title {
@@ -170,7 +174,7 @@ button{ cursor: pointer;}
  }
 
  .footer-text {
-     color: #ffffff;
+     color: #F4F4FD;
  }
 
  .footer-logo {
@@ -184,4 +188,4 @@ button{ cursor: pointer;}
  }
 
  .footer-accent-logo{ 
-    color: #4D5AE5}
+    color: #4d5ae5}

@@ -1,4 +1,5 @@
 body {
+    color: #434455;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
     font-size: 16px;
@@ -19,7 +20,7 @@ button{ cursor: pointer;}
     font-size: 18px;
     line-height: 1.17;
     text-decoration: none;
-    color: #2E2F42;
+    color: #2e2f42;
     text-transform: uppercase;
 }
 
@@ -70,6 +71,7 @@ button{ cursor: pointer;}
      font-size: 56px;
      line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
  }
 
  .hero-button {
@@ -97,21 +99,29 @@ button{ cursor: pointer;}
      line-height: 1.11;
      letter-spacing: 0.02em;
      
+     
  }
 
  /*benefits*/
  .benefits-list .title {
-     color: #2E2F42;
-
+     color: #434455;
      font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
     letter-spacing: 0.02em;
  }
 
+ .benefits-list .text{
+    color: #434455;
+ }
+
  /*team*/
  .section-team {
      background: #F4F4FD;
+ }
+ .section-team .section-title{
+    text-align: center;
+    text-transform: capitalize;
  }
  .team-item{
      background-color: #FFFFFF
@@ -127,10 +137,14 @@ button{ cursor: pointer;}
  }
 
  .team-list .text {
-     
+     color: #434455;
  }
 
-
+.section-title-portfolio{
+    text-align: center;
+    text-transform: capitalize;
+    
+}
 
  .portfolio-list .title {
      color: #2E2F42;
@@ -147,6 +161,7 @@ button{ cursor: pointer;}
      font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
+    
  }
 
  /* footer*/

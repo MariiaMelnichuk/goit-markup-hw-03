@@ -104,8 +104,9 @@ button{ cursor: pointer;}
 
  /*benefits*/
  .section-title-benefits{
-    color: #2e2f42;
+    color:#2e2f42;
  }
+
  .benefits-list .title {
      color: #434455;
      font-weight: 500;
@@ -153,6 +154,7 @@ button{ cursor: pointer;}
 
 }
 
+/*portfolio*/
  .portfolio-list .title {
      color: #2E2F42;
      letter-spacing: 0.02em;
